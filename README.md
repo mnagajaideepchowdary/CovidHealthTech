@@ -1,1 +1,1 @@
-# KovidHealthTech
+# CovidHealthTech
