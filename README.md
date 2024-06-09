@@ -11,6 +11,7 @@ This web-based restaurant application has been developed for the accomplishment 
 https://calm-sand-0cc616700.5.azurestaticapps.net/
 
 ## Project video link
+https://youtu.be/CRVKoQPsQ7Y
 
 ## Screenshots
 
