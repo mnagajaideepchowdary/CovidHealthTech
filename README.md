@@ -12,7 +12,7 @@ https://calm-sand-0cc616700.5.azurestaticapps.net/
 
 ## Project video link
 
-##Screenshots
+## Screenshots
 
 ### HOME PAGE
 <img width="929" alt="HOME" src="https://github.com/mnagajaideepchowdary/CovidHealthTech/assets/168766784/b25cf673-cad4-439c-8f15-1b8a19d78ea3">
@@ -42,10 +42,10 @@ https://calm-sand-0cc616700.5.azurestaticapps.net/
   - HealthBot
 ## TechStack
 
--HTML
--CSS
--Javascript
--BootStrap
+- HTML
+- CSS
+- Javascript
+- BootStrap
 
 
 
