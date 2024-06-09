@@ -42,6 +42,7 @@ https://calm-sand-0cc616700.5.azurestaticapps.net/
   - HealthBot
 ## TechStack
 
+- AZURE PORTAL
 - HTML
 - CSS
 - Javascript
