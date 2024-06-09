@@ -37,8 +37,8 @@ https://calm-sand-0cc616700.5.azurestaticapps.net/
 - Multiple web pages including:
   - Home
   - About Us
+  - Services
   - Contact
-  - Menu
   - HealthBot
 ## TechStack
 
