@@ -64,7 +64,7 @@ https://youtu.be/CRVKoQPsQ7Y
 - HTML
 - CSS
 - Javascript
-- BootStrap
+
 
 
 
