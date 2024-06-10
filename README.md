@@ -14,6 +14,19 @@ https://calm-sand-0cc616700.5.azurestaticapps.net/
 https://youtu.be/CRVKoQPsQ7Y
 
 ## Screenshots
+### AZURE HOME PAGE
+<img width="955" alt="azure home" src="https://github.com/mnagajaideepchowdary/CovidHealthTech/assets/168766784/9f51a27a-86ee-465a-beb1-01b58a60d2e5">
+
+### AZURE STATIC WEB APP SERVICE
+<img width="958" alt="static web app" src="https://github.com/mnagajaideepchowdary/CovidHealthTech/assets/168766784/68ed56f0-1e2e-472a-a0fd-684ff545a4d9">
+
+### AZURE AI SERVICE(HEALTH BOT) HOME PAGE
+<img width="922" alt="health bot home" src="https://github.com/mnagajaideepchowdary/CovidHealthTech/assets/168766784/e54ce4de-b838-4b36-bc0d-73ba0a1ed70f">
+
+### HEALTH BOT MANAGEMENT PORTAL
+<img width="925" alt="mg-1" src="https://github.com/mnagajaideepchowdary/CovidHealthTech/assets/168766784/e143ee1e-328d-4085-9ec0-a50d35034857">
+
+##  CovidHealthTech WEBSITE
 
 ### HOME PAGE
 <img width="929" alt="HOME" src="https://github.com/mnagajaideepchowdary/CovidHealthTech/assets/168766784/b25cf673-cad4-439c-8f15-1b8a19d78ea3">
@@ -41,6 +54,7 @@ https://youtu.be/CRVKoQPsQ7Y
   - Services
   - Contact
   - HealthBot
+
 ## TechStack
 
 - AZURE PORTAL
