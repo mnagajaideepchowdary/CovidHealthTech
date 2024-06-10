@@ -15,7 +15,7 @@ https://youtu.be/CRVKoQPsQ7Y
 
 ## Screenshots
 ### AZURE HOME PAGE
-<img width="955" alt="azure home" src="https://github.com/mnagajaideepchowdary/CovidHealthTech/assets/168766784/9f51a27a-86ee-465a-beb1-01b58a60d2e5">
+<img width="928" alt="frt home page" src="https://github.com/mnagajaideepchowdary/CovidHealthTech/assets/168766784/79d36941-15a9-4a1a-a65b-536ea4968f48">
 
 ### AZURE STATIC WEB APP SERVICE
 <img width="958" alt="static web app" src="https://github.com/mnagajaideepchowdary/CovidHealthTech/assets/168766784/68ed56f0-1e2e-472a-a0fd-684ff545a4d9">
