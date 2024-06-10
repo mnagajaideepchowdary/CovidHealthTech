@@ -2,7 +2,7 @@
 This web-based HEALTHCARE application has been developed for the accomplishment of the Future Ready Talent Internship program launched by Microsoft, Future Skills Prime, Quess, Github, and EY.
 
 ## DESCRIPTION:
-Innovative technology addresses COVID-19 information dissemination challenges. Counteracting misinformation, easing burden on facilities, and overcoming language barriers. Azure Health Bot ensures timely, credible information, empowering users and enhancing public health communication. Proactive measures mitigate spread, aligning with identified needs and opportunities.
+This web application addresses the COVID-19 information dissemination challenges,Counteracting misinformation, easing burden on facilities, and overcoming language barriers. Azure Health Bot ensures timely, credible information, empowering users and enhancing public health communication. Proactive measures mitigate spread, aligning with identified needs and opportunities.
 
 ## Azure Technologies Used
 
