@@ -28,6 +28,9 @@ https://youtu.be/CRVKoQPsQ7Y
 ### HEALTH BOT MANAGEMENT PORTAL
 <img width="925" alt="mg-1" src="https://github.com/mnagajaideepchowdary/CovidHealthTech/assets/168766784/e143ee1e-328d-4085-9ec0-a50d35034857">
 
+###  HEALTH BOT SCENARIOS
+<img width="925" alt="SYNARIOS " src="https://github.com/mnagajaideepchowdary/CovidHealthTech/assets/168766784/4d795d75-34a5-4355-a422-86bc50c0f4f6">
+
 ##  CovidHealthTech WEBSITE
 
 ### HOME PAGE
