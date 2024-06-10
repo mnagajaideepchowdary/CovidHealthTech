@@ -1,6 +1,8 @@
 # CovidHealthTech
+This web-based HEALTHCARE application has been developed for the accomplishment of the Future Ready Talent Internship program launched by Microsoft, Future Skills Prime, Quess, Github, and EY.
 
-This web-based restaurant application has been developed for the accomplishment of the Future Ready Talent Internship program launched by Microsoft, Future Skills Prime, Quess, Github, and EY.
+## DESCRIPTION:
+Innovative technology addresses COVID-19 information dissemination challenges. Counteracting misinformation, easing burden on facilities, and overcoming language barriers. Azure Health Bot ensures timely, credible information, empowering users and enhancing public health communication. Proactive measures mitigate spread, aligning with identified needs and opportunities.
 
 ## Azure Technologies Used
 
@@ -43,11 +45,9 @@ https://youtu.be/CRVKoQPsQ7Y
 ### HEALTH BOT
 <img width="932" alt="HEALTHBOT" src="https://github.com/mnagajaideepchowdary/CovidHealthTech/assets/168766784/83a2c91c-5a7a-4cc9-a213-47c5f3a61d96">
 
-## Features and Functionalities 😃
-
-- Interactive and responsive UI.
-- Graphical and visual innovative effects.
-- Aesthetically pleasing visual design and architecture.
+## Features and Functionalities 
+- Creative visual effects.
+- Attractive design and architecture
 - Multiple web pages including:
   - Home
   - About Us
