@@ -109,39 +109,45 @@
     <!-- hero slider end -->
     <!--/home-stats-->
     <section class="w3l-stats-main py-5">
-        <div class="container py-lg-5 py-2">
-            <div class="row stats-con">
-                <div class="col-lg-3 col-6 stats_info counter_grid text-left mt-lg-0 mt-5">
-                    <div class="icon stat-icon">
-                        <i class="fab fa-keycdn"></i>
-                    </div>
-                    <p class="counter">1233100</p>
-                    <h4>Active Cases</h4>
+    <div class="container py-lg-5 py-2">
+        <div class="row stats-con">
+            <div class="col-lg-3 col-6 stats_info counter_grid text-left mt-lg-0 mt-5">
+                <div class="icon stat-icon">
+                    <i class="fab fa-keycdn"></i>
                 </div>
-                <div class="col-lg-3 col-6 stats_info counter_grid1 text-left mt-lg-0 mt-5">
-                    <div class="icon stat-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <p class="counter">182020</p>
-                    <h4>Recovered Cases</h4>
+                <div id="covid-stats-active">
+                    Loading...
                 </div>
-                <div class="col-lg-3 col-6 stats_info counter_grid text-left mt-lg-0 mt-5">
-                    <div class="icon stat-icon">
-                        <i class="fas fa-skull-crossbones"></i>
-                    </div>
-                    <p class="counter">71912</p>
-                    <h4>Total Deaths</h4>
+                <h4>Active Cases</h4>
+            </div>
+            <div class="col-lg-3 col-6 stats_info counter_grid1 text-left mt-lg-0 mt-5">
+                <div class="icon stat-icon">
+                    <i class="fas fa-users"></i>
                 </div>
-                <div class="col-lg-3 col-6 stats_info counter_grid text-left mt-lg-0 mt-5">
-                    <div class="icon stat-icon">
-                        <i class="fas fa-crutch"></i>
-                    </div>
-                    <p class="counter">11912</p>
-                    <h4>Vaccination</h4>
+                <div id="covid-stats-recoverd">
+                    Loading...
                 </div>
+                <h4>Recovered Cases</h4>
+            </div>
+            <div class="col-lg-3 col-6 stats_info counter_grid text-left mt-lg-0 mt-5">
+                <div class="icon stat-icon">
+                    <i class="fas fa-skull-crossbones"></i>
+                </div>
+                <div id="covid-stats-deaths">
+                    Loading...
+                </div>
+                <h4>Total Deaths</h4>
+            </div>
+            <div class="col-lg-3 col-6 stats_info counter_grid text-left mt-lg-0 mt-5">
+                <div class="icon stat-icon">
+                    <i class="fas fa-crutch"></i>
+                </div>
+                <p class="counter">13270170332</p>
+                <h4>Vaccination</h4>
             </div>
         </div>
-    </section>
+    </div>
+</section>
     <!--//home-stats-->
     <!-- home page about section -->
     <section class="w3l-homeblock1" id="about">
@@ -435,6 +441,46 @@
             });
         });
     </script>
+    <script>
+        const url = 'https://covid-193.p.rapidapi.com/statistics';
+        const options = {
+            method: 'GET',
+            headers: {
+                'x-rapidapi-key': '165e5be335msh51ea10d6c627401p1650b3jsn373a4a3f182d',
+                'x-rapidapi-host': 'covid-193.p.rapidapi.com'
+            }
+        };
+
+        async function getCovidStatistics() {
+            try {
+                const response = await fetch(url, options);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const result = await response.json();
+                const worldStats = result.response.find((stat) => stat.country === "All");
+
+                // Update the HTML with the fetched data
+                document.getElementById('covid-stats-active').innerHTML = `
+            <p>${worldStats.cases.active}</p>
+        `;
+                document.getElementById('covid-stats-recoverd').innerHTML = `
+            <p>${worldStats.cases.recovered}</p>
+        `;
+                document.getElementById('covid-stats-deaths').innerHTML = `
+            <p>${worldStats.deaths.total}</p>
+        `;
+            } catch (error) {
+                console.error("Error fetching data:", error);
+                document.getElementById('covid-stats').innerHTML = 'Failed to load data.';
+            }
+        }
+
+        // Call the function to fetch and display the data
+        getCovidStatistics();
+
+</script>
+
     <!--//MENU-JS-->
     <script src="assets/js/bootstrap.min.js"></script>
 
